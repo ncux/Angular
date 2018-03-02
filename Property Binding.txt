@@ -1,0 +1,17 @@
+
+<h1>Hello world</h1>
+
+<!-- 3 ways to bind properties: -->
+
+<div>
+  <img [src]="imageUrl">
+  <img src="{{imageUrl}}">
+  <img bind-src="imageUrl">
+</div>
+<p> Image source: <span [textContent]="imageUrl"></span></p>
+<br>
+<hr>
+<p>Make changes here.</p>
+<p [hidden]="isUnchanged">Click below to save:</p>
+<button [disabled]="isUnchanged" (click)="makeChange();">Save</button>
+

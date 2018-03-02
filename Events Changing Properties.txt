@@ -1,0 +1,10 @@
+
+<h1>Hello world</h1>
+<button (click)="changeValue();">Click</button>
+<br>
+<button (click)="showOrHide();">Show or hide</button>
+<div *ngIf="value">
+  <p>{{text}}</p>
+</div>
+
+

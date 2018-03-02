@@ -1,0 +1,11 @@
+
+.special {
+  color: green;
+  font-family: "Bitstream Charter";
+}
+
+.seveable {
+  color: red;
+  font-family: "Comic Sans MS";
+  text-transform: uppercase;
+}

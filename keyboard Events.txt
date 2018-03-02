@@ -1,0 +1,11 @@
+
+<h1>Hello world</h1>
+<br>
+
+<input type="text" (keyup)="changeText($event);">
+<br>
+<hr>
+<p>{{text}}</p>
+
+
+

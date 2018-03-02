@@ -1,0 +1,10 @@
+
+<h1>Hello world</h1>
+<br>
+<div [style.color]="isSpecial ? 'brown' : 'purple'">
+  <p>Some text to test this out.</p>
+</div>
+<br>
+<div [ngStyle]="currentStyles">
+  <p>Some text to test this out.</p>
+</div>

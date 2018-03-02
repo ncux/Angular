@@ -1,0 +1,25 @@
+
+<h1>Hello {{name}}</h1>
+<p *ngIf="showName">{{name}}</p>
+<p *ngIf="!showName">Hello world</p>
+
+<!-- alternative is below: (recommended) -->
+
+<p *ngIf="showName; else noName">{{name}}</p>
+<ng-template #noName>world!</ng-template>
+
+<!-- another alternative is below: -->
+
+<p> {{showName ? name : 'world'}}</p>
+<br>
+<hr>
+<div [ngSwitch]="car">
+  <div *ngSwitchCase="1"><p>Accord</p></div>
+  <div *ngSwitchCase="2"><p>Camry</p></div>
+  <div *ngSwitchCase="3"><p>Mazda6</p></div>
+  <div *ngSwitchCase="4"><p>Fusion</p></div>
+  <div *ngSwitchDefault><p>Regal</p></div>
+
+
+</div>
+

@@ -1,0 +1,6 @@
+
+<h1>My name is {{name}}. I'm {{age}}</h1>
+<h2>He is {{person.firstName}} {{person.lastName}}</h2>
+<h2>He's aged {{displayAge()}}</h2>
+
+

@@ -1,0 +1,7 @@
+
+<h1>Hello world</h1>
+
+<h3 [class.special]="isSpecial">Text is for demo</h3>
+
+<h3 [ngClass]="currentClasses">ngClass is for multiple classes</h3>
+

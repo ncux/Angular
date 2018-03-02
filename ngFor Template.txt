@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let sedan of sedans; let i = index"> {{i + 1}} {{sedan}}</li>
+</ul>
+<br>
+<hr>
+<ul>
+  <li *ngFor="let car of sedans2"> {{car.my}} {{car.oem}} {{car.model}}</li>
+</ul>

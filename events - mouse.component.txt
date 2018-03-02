@@ -1,0 +1,5 @@
+
+<h1>Hello world</h1>
+<button (click)="clicker($event);">Click</button>
+<p (mouseover)="aleter();">I love cum.</p>
+
